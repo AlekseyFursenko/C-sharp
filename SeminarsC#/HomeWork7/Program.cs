@@ -57,7 +57,7 @@ void PrintArrayInt(int[,] array)
 
 void CheckPosition(double[,] array, int row, int column)
 {
-    if(row <= array.GetLength(0) && column >= array.GetLength(1))
+    if(row <= array.GetLength(0) && column <= array.GetLength(1))
     {
         Console.WriteLine("Element of the array with position (" + 
                             row + ", " +
